@@ -2,7 +2,7 @@ Certainly! Below is the content formatted as a README.md file for GitHub:
 
 ---
 
-# Programming Exercises README
+# Programming Exercises JavaScript
 
 This README contains solutions to various programming exercises along with their descriptions.
 
