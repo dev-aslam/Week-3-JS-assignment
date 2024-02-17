@@ -6,8 +6,14 @@ let my_string = readLine.question("Enter a string ");
 // let my_string = Number(readLine.question("Enter a string "));
 
 try{
-    my_string = my_string.split('').reverse().join('');
-    console.log(`Reversed string is ${my_string}`);
+    if(!isNaN(Number(my_string))){
+        my_string = Number(my_string)
+        my_string = my_string.split('').reverse().join('');
+    }
+    else{
+        my_string = my_string.split('').reverse().join('');
+        console.log(`Reversed string is ${my_string}`);
+    }
 }catch(err){
     console.log(err.message);
 }finally{
